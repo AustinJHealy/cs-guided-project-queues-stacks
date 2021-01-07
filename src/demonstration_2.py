@@ -19,6 +19,7 @@ class Stack:
         if len(self.data) > 0:
             return self.data.pop()
         return "The stack is empty"
+
 class LinkedListNode:
     def __init__(self, data):
         self.data = data

@@ -3,7 +3,8 @@ class LinkedListNode:
     def __init__(self, data):
         self.data = data
         self.next = None
-class Stack:
+
+class LLStack:
     def __init__(self):
        self.top = None
 
@@ -23,3 +24,4 @@ class Stack:
         old_top.next = None
         
         return old_top.data
+        
